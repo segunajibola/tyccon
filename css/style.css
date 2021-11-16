@@ -144,7 +144,8 @@ menu ul li:hover {
 }
 .hero {
   min-height: 100vh;
-  background-image: url(/assets/slider-one.jpg);
+  width: 100%;
+  background-image: url(../assets/slider-one.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,6 +153,9 @@ menu ul li:hover {
   position: relative;
   object-fit: cover;
   position: relative;
+}
+.hero-banner {
+  background-image: url(../assets/slider-two.jpg);
 }
 .PrevArrow,
 .nextArrow {
@@ -167,10 +171,6 @@ menu ul li:hover {
 }
 .nextArrow {
   right: 0;
-}
-
-.hero-banner {
-  background-image: url(/assets/slider-two.jpg);
 }
 
 .hero__wrapper {
